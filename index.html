@@ -9,15 +9,15 @@
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; background: #fafafa; line-height: 1.7; }
     .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
     h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
-    .app-name { color: #52a393; font-size: 15px; font-weight: 600; margin-bottom: 32px; }
+    .app-name { color: #00B4A0; font-size: 15px; font-weight: 600; margin-bottom: 32px; }
     .updated { color: #6c7b95; font-size: 13px; margin-bottom: 40px; }
     h2 { font-size: 20px; font-weight: 600; margin-top: 36px; margin-bottom: 12px; }
     p, li { font-size: 15px; color: #333; margin-bottom: 12px; }
     ul { padding-left: 24px; margin-bottom: 16px; }
     li { margin-bottom: 6px; }
-    .highlight { background: #f0faf7; border-left: 3px solid #52a393; padding: 16px 20px; border-radius: 8px; margin: 20px 0; }
+    .highlight { background: #E8F7F5; border-left: 3px solid #00B4A0; padding: 16px 20px; border-radius: 8px; margin: 20px 0; }
     .highlight p { margin-bottom: 0; font-weight: 500; }
-    a { color: #52a393; }
+    a { color: #00B4A0; }
     .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e8e8e8; color: #6c7b95; font-size: 13px; }
   </style>
 </head>
@@ -25,7 +25,7 @@
   <div class="container">
     <h1>Privacy Policy</h1>
     <div class="app-name">BAP: Discover Korean Cuisine</div>
-    <div class="updated">Last updated: March 16, 2026</div>
+    <div class="updated">Last updated: March 20, 2026</div>
 
     <div class="highlight">
       <p>BAP does not collect, store, or transmit any personal data. All features work entirely offline on your device.</p>
@@ -45,22 +45,37 @@
       <li>Cookies or tracking technologies</li>
     </ul>
 
+    <h2>App Permissions</h2>
+    <p>BAP may request the following device permissions. These are used solely for on-device functionality and never for data collection:</p>
+    <ul>
+      <li><strong>Camera</strong> — Required for the Menu Scan feature to capture images of Korean menus for on-device text recognition. No images are stored, uploaded, or shared.</li>
+      <li><strong>Notifications</strong> — Used to schedule optional local meal reminders. No data is sent to external servers.</li>
+    </ul>
+
     <h2>On-Device Features</h2>
     <p>The following features run entirely on your device. No data is sent to any server:</p>
     <ul>
       <li><strong>Menu Scan (Camera/OCR)</strong> — The camera is used solely to capture and recognize Korean text on menus using on-device OCR (Google ML Kit). Images are processed locally and are never uploaded or stored.</li>
       <li><strong>Text-to-Speech (TTS)</strong> — Korean ordering phrases are spoken using your device's built-in TTS engine. No audio data is transmitted.</li>
-      <li><strong>Saved Foods &amp; Preferences</strong> — Your saved items, allergy presets, and app settings are stored locally on your device using AsyncStorage. This data never leaves your device.</li>
+      <li><strong>Saved Foods &amp; Preferences</strong> — Your saved items, allergy presets, and app settings are stored locally on your device. This data never leaves your device.</li>
       <li><strong>Local Notifications</strong> — Meal review reminders are scheduled locally. No push notification servers are involved.</li>
     </ul>
+
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>All app data (saved foods, preferences, settings) is stored locally on your device only. You can delete this data at any time by:</p>
+    <ul>
+      <li>Clearing the app's data in your device settings</li>
+      <li>Uninstalling the app</li>
+    </ul>
+    <p>Since no data is stored on our servers, uninstalling BAP permanently removes all associated data.</p>
 
     <h2>Third-Party Services</h2>
     <p>The App may include the following third-party services in future updates:</p>
     <ul>
-      <li><strong>Google AdMob</strong> — For displaying advertisements to free-tier users. AdMob may collect device advertising identifiers and usage data as described in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. Premium users who purchase the ad-free upgrade will not be served any ads.</li>
+      <li><strong>Google AdMob</strong> — For displaying advertisements. AdMob may collect device advertising identifiers and usage data as described in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
       <li><strong>RevenueCat</strong> — For processing in-app purchases. RevenueCat may collect anonymous transaction data as described in <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat's Privacy Policy</a>.</li>
     </ul>
-    <p>These services operate independently from BAP's core functionality. You can use the App's core features (food guide, menu scan, TTS ordering) without any data collection.</p>
+    <p>These services are not active in the current version. When introduced, users will be notified via an app update and this policy will be revised accordingly.</p>
 
     <h2>Children's Privacy</h2>
     <p>BAP is not directed at children under the age of 13. We do not knowingly collect any information from children.</p>
